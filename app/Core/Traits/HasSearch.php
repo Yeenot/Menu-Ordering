@@ -40,7 +40,7 @@ Trait HasSearch
                     });
                 } else {
                     $search = request()->search;
-                    $query->orWhere($value, 'LIKE', "%{$search}%");
+                    $query->orWhere($value, 'ILIKE', "%{$search}%");
                 }
             }
         });
