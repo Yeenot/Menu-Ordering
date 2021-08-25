@@ -8,6 +8,6 @@ class FilterPartial extends BaseFilter
 {
     public function __invoke($query, $value)
     {
-        $query->where($this->column, '%LIKE%', $value);
+        $query->where($this->column, '%ILIKE%', $value);
     }
 }
