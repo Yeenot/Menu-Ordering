@@ -1,5 +1,5 @@
 # Menu Ordering App Challenge
-An app that allows user to see the list of menus and select an item from the menu.
+An menu ordering app challenge that allows user to see the list of menus and select an item from the menu.
 
 ## Installation
 
